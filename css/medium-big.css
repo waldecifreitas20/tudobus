@@ -1,0 +1,22 @@
+@media (max-width: 1100px) {
+    main {
+        width: 70%;
+    }
+
+    main #main-news img,
+    main #main-news * {
+        width: 100%;
+    }
+
+    main #main-news img {
+        margin: 0 0 15px 0;
+    }
+}
+
+@media (min-width: 501px) {
+    aside {
+        position: right;
+        display: block;
+        width: 28%;
+    }
+}

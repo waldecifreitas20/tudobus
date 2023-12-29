@@ -1,0 +1,25 @@
+@media (min-width: 1013px) {
+
+    header {
+        position: sticky;
+        top: 0;
+    }
+
+
+    header ul #title {
+        font-size: 1.4em;
+        margin: 0 35px;
+    }
+
+
+    aside {
+        display: block;
+    }
+
+    main .news-content {
+        float: right;
+        width: 40%;
+    }
+
+
+}
