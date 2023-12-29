@@ -1,14 +1,16 @@
-@media (max-width: 1100px) {
-    main {
-        width: 70%;
+@media (max-width: 1122px) {
+   
+
+    main #main-news article{
+        padding: 10px;
     }
 
-    main #main-news img,
-    main #main-news * {
+    main #main-news article img,
+    main #main-news article * {
         width: 100%;
     }
 
-    main #main-news img {
+    main #main-news article img {
         margin: 0 0 15px 0;
     }
 }
@@ -18,5 +20,9 @@
         position: right;
         display: block;
         width: 28%;
+    }
+
+    main {
+        width: 70%;
     }
 }

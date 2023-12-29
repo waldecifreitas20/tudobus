@@ -1,4 +1,4 @@
-@media (min-width: 1013px) {
+@media (min-width: 1123px) {
 
     header {
         position: sticky;
@@ -16,8 +16,13 @@
         display: block;
     }
 
+    main #main-news article {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
     main .news-content {
-        float: right;
         width: 40%;
     }
 

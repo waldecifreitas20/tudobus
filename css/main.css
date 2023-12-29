@@ -4,6 +4,7 @@
     --bg-primary: rgb(255, 255, 255);
     --font-size: 1em;
     --text-color: rgb(44, 44, 44);
+    --text-box-color: white;
     --border-radius: .5em;
 }
 
@@ -17,7 +18,7 @@
 
 body,
 html {
-    min-width: 450px;
+    min-width: 460px;
     position: relative;
     font-size: var(--font-size);
     height: 100vh;
@@ -36,7 +37,7 @@ input[type="submit"],
 input[type="button"] {
     background-color: var(--color-primary);
     border: 2px solid var(--color-primary);
-    color: white;
+    color: var(--text-box-color);
     transition: 200ms;
 
     text-transform: capitalize;
@@ -50,7 +51,7 @@ input[type="button"]:hover {
 }
 
 input {
-    padding: 10px;
+    padding: 8px;
 }
 
 .clear {
@@ -97,7 +98,7 @@ header ul a {
 }
 
 header ul a:hover {
-    color: white;
+    color: var(--text-box-color);
     background: var(--color-primary);
 }
 
@@ -129,7 +130,7 @@ main {
 
 main,
 #main-news {
-    min-width: 450px;
+    min-width: 350px;
 
 }
 
@@ -140,21 +141,26 @@ aside {
     display: none;
 }
 
-main #main-news {
-    border: 1px solid rgba(202, 202, 202, 0.473);
-    border-radius: var(--border-radius);
-    padding: 40px;
+main #main-news article{
+    border: 1px solid var(--color-primary);
+    padding: 5px;
     width: 100%;
 }
 
-main #main-news h1 {
+main section .section-title {
+    /* width: 20%; */
+    background-color: var(--color-primary);
+    padding: 5px 5px;
+    display: inline-block;
+    color: var(--text-box-color);
+}
+
+main #main-news article h1 {
     font-size: 1.6em;
 }
 
 main .news-content {
     float: right;
-    width: 40%;
-    margin-left: 20px;
 }
 
 main .news-content p {
@@ -162,13 +168,12 @@ main .news-content p {
     text-align: justify;
 }
 
-main #main-news img {
+main #main-news article img {
     float: left;
     display: block;
     margin: 0px;
-    min-width: 300px;
     width: 55%;
-    border-radius: var(--border-radius);
+    /* border-radius: var(--border-radius); */
 }
 
 .read-more {

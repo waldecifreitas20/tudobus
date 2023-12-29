@@ -23,7 +23,13 @@
         display: none;
     }
 
+    #content {
+        width: 90%;
+    } 
+
     main {
+        display: block;
+        margin: 0 auto;
         float: none;
         width: 100%;
     }
