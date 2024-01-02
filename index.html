@@ -45,7 +45,7 @@
                                 minima
                                 sunt
                                 aut nostrum quidem aliquid.</p>
-                            <input type="button" class="read-more" value="leia mais">
+                            <a href="" class="read-more btn">Leia Mais</a>
                         </div>
                         <div class="clear"></div>
                     </article>
@@ -55,12 +55,14 @@
             </main>
 
             <aside>
-                <article>
-                    <form action="" method="get">
-                        <input type="search" placeholder="Pesquise assuntos">
-                        <input type="submit" value="Pesquisar">
-                    </form>
-                </article>
+                <section>
+                    <article id="searching">
+                        <form action="" method="get">
+                            <input type="search" id="search-input" placeholder="Pesquise assuntos">
+                            <input type="submit" class="btn" value="Pesquisar">
+                        </form>
+                    </article>
+                </section>
 
                 <section id="topics">
                     <h4 class="section-title">Tópicos</h4>
@@ -74,12 +76,17 @@
                     </article>
                 </section>
 
-                <section>
+                <section id="newsletter">
                     <h4 class="section-title">Newsletter</h4>
-                    <form action="">
-                        <input type="email" placeholder="Digite seu email">
-                        <input type="button" value="Assinar">
-                    </form>
+                    <article>
+                        <p>
+                            Fique por dentro de todas as novidades do site, assine nossa newsletter.
+                        </p>
+                        <form action="" id="subscribe">
+                            <input type="email" placeholder="Digite seu email">
+                            <input type="submit" class="btn" value="Assinar">
+                        </form>
+                    </article>
                 </section>
             </aside>
 

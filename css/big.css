@@ -1,4 +1,4 @@
-@media (min-width: 1123px) {
+@media (min-width: 1151px) {
 
     header {
         position: sticky;
@@ -11,9 +11,8 @@
         margin: 0 35px;
     }
 
-
-    aside {
-        display: block;
+    #content {
+        width: 90%;
     }
 
     main #main-news article {
@@ -24,6 +23,70 @@
 
     main .news-content {
         width: 40%;
+    }
+
+    aside {
+        position: right;
+        display: block;
+        width: 23%;
+    }
+
+    main {
+        width: 75%;
+    }
+
+    aside section {
+        margin: 25px 0;
+    }
+
+    aside .section-title {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    aside ul {
+        padding: 0 5px;
+    }
+
+    aside ul a {
+        display: block;
+        /* border: 1px solid yellow; */
+        margin-bottom: 10px;
+        transition: all 100ms;
+    }
+
+    aside ul a:hover {
+        color: var(--color-primary);
+        font-weight: bold;
+    }
+
+    aside #searching form {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    aside #searching form #search-input {
+        width: 67%;
+    }
+    
+    aside #searching form .btn {
+        width: 32%;
+        
+    }
+
+
+    aside #newsletter article {
+        padding: 0 5px;
+    }
+
+    aside #newsletter p {
+        font-size: .8em;
+    }
+
+    aside section #subscribe input {
+        width: 100%;
+        display: block;
+        margin: 8px auto;
     }
 
 
