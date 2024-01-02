@@ -1,7 +1,7 @@
 :root {
     --color-primary: rgb(255, 0, 149);
     --color-primary-dark: rgb(20, 187, 165);
-    --bg-primary: rgba(235, 235, 235, 0.137);
+    --bg-primary: rgb(245, 245, 245);
     --font-size: 1em;
     --text-color: rgb(0, 0, 0);
     --text-box-color: white;
