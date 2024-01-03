@@ -177,10 +177,13 @@ main #main-news article img {
     display: block;
     margin: 0px;
     width: 55%;
-    /* border-radius: var(--border-radius); */
 }
 
 .read-more {
     width: 100px;
+}
+
+main section {
+    margin-bottom: 15px;
 }
 

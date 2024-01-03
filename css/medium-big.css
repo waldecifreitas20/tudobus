@@ -44,7 +44,6 @@
 
     aside ul a {
         display: block;
-        /* border: 1px solid yellow; */
         margin-bottom: 10px;
         transition: all 100ms;
     }
