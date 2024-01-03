@@ -1,4 +1,4 @@
-@media (min-width: 1151px) {
+@media (min-width: 1101px) {
 
     header {
         position: sticky;
@@ -50,7 +50,6 @@
 
     aside ul a {
         display: block;
-        /* border: 1px solid yellow; */
         margin-bottom: 10px;
         transition: all 100ms;
     }
@@ -60,6 +59,7 @@
         font-weight: bold;
     }
 
+    
     aside #searching form {
         display: flex;
         justify-content: space-between;

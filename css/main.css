@@ -1,5 +1,5 @@
 :root {
-    --color-primary: rgb(255, 0, 149);
+    --color-primary: rgb(37, 0, 248);
     --color-primary-dark: rgb(20, 187, 165);
     --bg-primary: rgb(245, 245, 245);
     --font-size: 1em;
@@ -169,6 +169,7 @@ main .news-content {
 main .news-content p {
     margin: 15px 0;
     text-align: justify;
+
 }
 
 main #main-news article img {
@@ -183,6 +184,62 @@ main #main-news article img {
 }
 
 main section {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+/* RECENT POSTS */
+main .post-section article {
+    padding-top: 10px;
+    border-top: 1px solid var(--color-primary);
+}
+
+main .post-section ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+main .post-section li {
+    margin: 5px 0;
+    width: 32.5%;
+    display: block;
+}
+
+main .post-section li h4 {
+    margin-top: 5px;
+    line-height: 20px;
+    font-size: .8em;
+}
+
+main .post-section a {
+    display: block;
+    transition: all 400ms;
+    text-align: center;
+}
+
+main .post-section a:hover {
+    background-color: var(--color-primary);
+}
+main .post-section a:hover h4 {
+    color: white;
+}
+
+main .post-section a:hover img {
+    height: 100%;
+    min-width: 100%;
+    display: block;
+}
+
+main .post-section .img-container {
+    height: 200px;
+    overflow: hidden;
+    text-align: center;
+}
+
+main .post-section li img {
+    display: block;
+    max-height: 300px;
+    /* width: 100%; */
+    transition: all 300ms;
 }
 
