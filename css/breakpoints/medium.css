@@ -1,16 +1,5 @@
 @media (min-width: 768px) {
 
-    header {
-        padding-top: 80px;
-
-    }
-    header ul #title {
-        top: -50px;
-        width: 100%;
-        text-align: center;
-        position: absolute;
-    }
-
     main {
         float: none;
         width: 100%;

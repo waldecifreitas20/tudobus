@@ -3,15 +3,6 @@
         --font-size : 1em;
     }
 
-    header ul {
-        width: 100%;
-    }
-
-    
-
-    header ul #title {
-        display: block;
-    }
 
     aside {
         display: none;
