@@ -58,6 +58,10 @@ a {
 
 }
 
+.dispose {
+    display: none !important;
+}
+
 input {
     padding: 8px;
 }
@@ -69,11 +73,9 @@ input {
 
 
 header {
+    position: relative;
     width: 100%;
     background: var(--bg-primary);
-
-    padding-top: 50px;
-    padding-bottom: 20px;
 
     border-bottom: 2px solid var(--color-primary);
     margin-bottom: 20px;
@@ -83,27 +85,6 @@ header {
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.26);
 }
 
-
-header ul {
-    width: fit-content;
-    margin: 0 auto;
-    position: relative;
-}
-
-header ul li {
-    float: left;
-    line-height: 40px;
-    text-transform: uppercase;
-    width: 100px;
-    margin: 0 10px;
-}
-
-header ul a {
-    text-align: center;
-    width: 100%;
-    display: block;
-    transition: 200ms;
-}
 
 header ul a:hover {
     color: var(--text-box-color);
@@ -131,7 +112,6 @@ header ul #title {
 }
 
 main {
-    float: left;
     width: 70%;
     margin: 0 auto;
 }
@@ -142,19 +122,13 @@ main,
     min-width: 350px;
 }
 
-aside {
-    top: 0;
-    float: right;
-    display: none;
-}
-
 main #main-news article {
     width: 100%;
     padding: 10px 0;
 }
 
 #content section .section-title {
-    /* width: 20%; */
+
     background-color: var(--color-primary);
     padding: 5px 5px;
     display: inline-block;

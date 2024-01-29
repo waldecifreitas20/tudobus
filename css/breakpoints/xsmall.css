@@ -1,0 +1,8 @@
+header ul #title {
+    width: 100%;
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+    text-align: center;
+    top: 45%;
+}

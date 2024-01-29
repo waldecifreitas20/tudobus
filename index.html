@@ -6,16 +6,24 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <link rel="stylesheet" href="./css/main.css">
+        <link rel="stylesheet" href="./css/breakpoints/xsmall.css">
         <link rel="stylesheet" href="./css/breakpoints/small.css">
         <link rel="stylesheet" href="./css/breakpoints/medium.css">
         <link rel="stylesheet" href="./css/breakpoints/large.css">
         <link rel="stylesheet" href="./css/breakpoints/xlarge.css">
         <title>TudoBus</title>
+
+
     </head>
 
     <body>
         <header id="header">
-            <nav class="menu">
+            <div id="btn-menu">
+                <input id="menu-toggler" type="checkbox">
+                <label for="menu-toggler">Menu</label>
+            </div>
+
+            <nav class="menu dispose">
                 <ul>
                     <li><a href="">Categorias</a></li>
                     <li><a href="">Galeria</a></li>
@@ -246,5 +254,6 @@
             </section>
         </footer>
     </body>
+    <script src="./js/main.js"></script>
 
 </html>
