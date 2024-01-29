@@ -91,15 +91,14 @@ header ul a:hover {
     background: var(--color-primary);
 }
 
-header ul #title a:hover {
+header #title a:hover {
     border-bottom: none;
     background: none;
 }
 
-header ul #title {
-    width: fit-content;
-    font-size: 1.2em;
+header #title {
     font-weight: bold;
+    font-size: 2em;
     font-style: italic;
 }
 
