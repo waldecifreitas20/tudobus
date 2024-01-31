@@ -102,6 +102,9 @@ section#main-news img {
     display: block;
 }
 
+aside {
+    display: none;
+}
 
 /* FOOTER */
 article#about-us h3 {
@@ -191,4 +194,29 @@ footer .nav-menu ul li:hover a {
     background: url("../../images/twitter.png");
 }
 
+
+section#footer-bottom {
+    display: block;
+    text-align: center;
+
+    font-size: .9em;
+    
+}
+
+section#footer-bottom article {
+    margin-top: 5px;    
+}
+
+section#footer-bottom article p {
+    color: var(--dimmed-text-color);
+}
+
+section#footer-bottom a {
+    transition: all 200ms;
+}
+
+section#footer-bottom a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
 
