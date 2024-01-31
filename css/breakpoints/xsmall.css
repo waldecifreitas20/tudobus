@@ -65,16 +65,18 @@ header #btn-menu label:active{
     box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.219);
 }
 
-.nav-menu li {
+header .nav-menu li {
     text-indent: 20px;
 }
 
+
 .nav-menu li a {
-    line-height: 30px;
+    padding: 10px;
+    display: block;
+    /* line-height: 30px; */
 }
 
 .nav-menu ul li:hover a {
-    display: block;
     background-color: var(--color-primary);
     color: white;
 }
@@ -100,3 +102,19 @@ section#main-news img {
 
 
 /* FOOTER */
+article#about-us h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+
+nav.nav-menu ul{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin: 20px 0;
+}
+
+footer .nav-menu ul li:hover a {
+    
+}
