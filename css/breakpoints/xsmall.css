@@ -73,10 +73,10 @@ header .nav-menu li {
 .nav-menu li a {
     padding: 10px;
     display: block;
-    /* line-height: 30px; */
+    text-transform: uppercase;
 }
 
-.nav-menu ul li:hover a {
+header .nav-menu ul li:hover a {
     background-color: var(--color-primary);
     color: white;
 }
@@ -107,14 +107,24 @@ article#about-us h3 {
     margin-bottom: 5px;
 }
 
-nav.nav-menu ul{
+footer nav.nav-menu ul{
     display: flex;
     justify-content: center;
     flex-direction: row;
+    flex-wrap: wrap;
 
     margin: 20px 0;
 }
 
-footer .nav-menu ul li:hover a {
-    
+footer .nav-menu ul li {
+    letter-spacing: 2px;
+    text-align: left;
 }
+
+footer .nav-menu ul li:hover a {
+    background-color: var(--dimmed-text-color);
+    color: var(--dimmed-text-color);
+    box-shadow: 0 0 1px white;
+}
+
+
