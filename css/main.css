@@ -62,6 +62,9 @@ a {
 
 }
 
+.btn-click:active {
+    scale: 0.97;
+}
 
 .dispose {
     display: none !important;
