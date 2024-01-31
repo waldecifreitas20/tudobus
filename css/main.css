@@ -4,7 +4,8 @@
     --color-primary-light: rgb(226, 227, 252);
     --bg-primary: rgb(245, 245, 245);
     --bg-secondary: rgb(231, 231, 231);
-    --footer-color: rgb(10, 10, 20);
+    --footer-color: rgb(8, 8, 17);
+    --footer-color-light: rgb(22, 22, 37);
     --font-size: 1em;
     --text-color: rgb(0, 0, 0);
     --footer-text-color: rgb(235, 235, 235);
@@ -203,7 +204,9 @@ main .post-section li img {
 footer {
     position: relative;
     padding-bottom: 30px;
-    background-color: var(--footer-color);
+    background: linear-gradient(
+        var(--footer-color) 10%, var(--footer-color-light)
+        );
 }
 
 footer * {
