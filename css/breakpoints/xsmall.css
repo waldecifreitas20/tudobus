@@ -74,6 +74,8 @@ header .nav-menu li {
     padding: 10px;
     display: block;
     text-transform: uppercase;
+
+    transition: all 300ms;
 }
 
 header .nav-menu ul li:hover a {
@@ -103,7 +105,7 @@ section#main-news img {
 
 /* FOOTER */
 article#about-us h3 {
-    font-size: 1.3em;
+    font-size: 1.4em;
     margin-bottom: 5px;
 }
 
@@ -113,7 +115,7 @@ footer nav.nav-menu ul{
     flex-direction: row;
     flex-wrap: wrap;
 
-    margin: 20px 0;
+    margin: 40px 0;
 }
 
 footer .nav-menu ul li {
@@ -122,9 +124,71 @@ footer .nav-menu ul li {
 }
 
 footer .nav-menu ul li:hover a {
-    background-color: var(--dimmed-text-color);
-    color: var(--dimmed-text-color);
-    box-shadow: 0 0 1px white;
+    color: var(--color-primary);
+    box-shadow: 0 0 1px;
+}
+
+#socials {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.089);
+    padding-bottom: 25px;
+    margin-bottom: 20px;
+}
+
+#socials h3  {
+    display: none;
+    font-size: 1.4em;
+    font-weight: 400;
+
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#socials ul{
+    display: flex;
+
+    justify-content:center;    
+}
+
+
+#socials ul li {
+    text-indent: -999px;
+        
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    margin: 0 20px;
+
+    transition: all 400ms;
+} 
+
+#socials ul li a {
+    display: block;
+    height: 30px;
+    width: 30px;
+}
+
+#socials ul li:hover {
+    opacity: .5;
+    cursor: pointer;
+    scale: .99;
+}
+
+#facebook {
+    background: url("../../images/fb.png");
+    
+}
+
+#insta {
+    background: url("../../images/insta.png");
+}
+
+#tiktok {
+    background: url("../../images/tiktok.png");
+}
+
+#twitter {
+    background: url("../../images/twitter.png");
 }
 
 
