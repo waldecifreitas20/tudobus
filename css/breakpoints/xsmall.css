@@ -1,7 +1,6 @@
 /* HEADER */
 header {
-    padding: 15px 10px;
-    align-items: top;
+    padding: 10px 10px;
 }
 
 header #btn-menu input {
@@ -30,8 +29,7 @@ header #btn-menu label:hover {
     background-color: rgba(0, 0, 0, 0.02);
 }
 
-header #btn-menu label:active{
-    
+header #btn-menu label:active{   
     scale: 0.97;
 }
 
@@ -61,7 +59,6 @@ header #btn-menu label:active{
     padding: 0px;
     display: block;
 
-    border-radius: 0em;
     box-shadow: inset 0px 2px 5px 0px rgba(0, 0, 0, 0.219);
 }
 
@@ -97,9 +94,8 @@ section#main-news {
     box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.452);
 }
 
-section#main-news img {
+main #main-news article * {
     width: 100%;
-    display: block;
 }
 
 aside {

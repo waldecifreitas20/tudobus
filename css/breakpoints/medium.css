@@ -1,11 +1,53 @@
 @media (min-width: 768px) {
-
-    main {
-        float: none;
-        width: 100%;
+    header {
+        padding: 20px 0;
     }
 
-    aside {
+    #menu-bar {
+        padding: 0;
+    }
+
+    #btn-menu {
         display: none;
+    }
+
+    #title {
+       
+        display: inline-block;
+        position: absolute;
+        margin: 0 auto;
+        left: 5px;
+        top: 18px;
+        z-index: -9;
+        text-align: center;
+    }
+
+    .nav-menu {
+        display: block;
+        padding: 0;
+        box-shadow: none;
+        margin: 0;
+    }
+
+    .nav-menu ul {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        z-index: 9;
+        margin-top: 0;
+
+        /* border: 1px solid red; */
+    }
+
+    .nav-menu .space {
+        width: 200px;
+        display: block;
+    }
+
+    header .nav-menu li {
+        /* border: 1px solid red; */
+        text-indent: 0;
     }
 }
