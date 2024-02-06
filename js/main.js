@@ -2,7 +2,7 @@ const menuToggler = document.getElementById("menu-toggler");
 const navMenu = document.querySelector("header .nav-menu");
 
 let isMenuHidden = true;
-let maxWindowWidth = 768;
+let maxWindowWidth = 767;
 
 window.addEventListener('load', () => {
     toggleMenu(window.innerWidth <= maxWindowWidth);
