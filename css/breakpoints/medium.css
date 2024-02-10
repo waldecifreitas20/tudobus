@@ -12,7 +12,6 @@
     }
 
     #title {
-       
         display: inline-block;
         position: absolute;
         margin: 0 auto;
@@ -30,7 +29,6 @@
     }
 
     .nav-menu ul {
-
         display: flex;
         flex-direction: row;
         justify-content: center;
@@ -96,6 +94,5 @@
     aside section#newsletter p {
         margin: 10px 0;
     }
-
 
 }

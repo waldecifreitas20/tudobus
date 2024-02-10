@@ -214,7 +214,7 @@ footer * {
     font-size: 99%;
 }
 
-footer a.btn {
+footer a#go-top {
     padding: 10px 0;
     position: sticky;
     top: 0;
