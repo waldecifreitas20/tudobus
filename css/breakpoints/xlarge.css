@@ -1,3 +1,30 @@
 @media (min-width: 1200px) {
 
+    section#main-news article img {
+        width: 46%;
+    }
+
+    section#main-news div#news-content{
+        width: 48%;
+        margin-right: 20px;
+    }
+
+    #news-content .read-more {
+        margin-top: 20px;
+        margin-left: auto;
+        width: 150px;
+    }
+
+    /* POSTS */
+    section.post-section div.img-container {
+        height: 200px;
+    }
+
+    section.post-section li.post h4 {
+        height: auto;
+    }
+
+  
+
+
 }

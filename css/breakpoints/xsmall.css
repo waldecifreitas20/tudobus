@@ -94,7 +94,7 @@ section#main-news {
     box-shadow: inset 0px 0px 2px rgba(0, 0, 0, 0.452);
 }
 
-main #main-news article * {
+#main-news article * {
     width: 100%;
 }
 
