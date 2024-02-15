@@ -138,6 +138,7 @@ main .news-content p {
 
 .read-more {
     width: 100px;
+    margin-top: 10px;
 }
 
 main section {
@@ -161,10 +162,14 @@ main .post-section li {
     width: 33.3%;
 }
 
-main .post-section li h4 {
+main .post-section a h4 {
     margin-top: 5px;
     line-height: 20px;
+    height: 50px;
     font-size: .8em;
+    text-wrap: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
 }
 
 main .post-section .post a {
@@ -181,6 +186,8 @@ main .post-section a:hover {
 
 main .post-section a:hover h4 {
     color: var(--color-primary-dark);
+    text-wrap: wrap;
+    
 }
 
 main .post-section a:hover img {
