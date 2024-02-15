@@ -36,4 +36,9 @@
         width: 100px;
         margin-top: 10px;
     }
+
+    /* POSTS */
+    section.post-section div.img-container  {
+        height: 150px;
+    }
 }
